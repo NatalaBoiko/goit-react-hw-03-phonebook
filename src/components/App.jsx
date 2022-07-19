@@ -31,10 +31,6 @@ export class App extends Component {
     }
   }
 
-  // componentWillUnmount() {
-  //   console.log('componentWillUnmount');
-  // }
-
   formSubmit = ({ name, number }) => {
     const contact = {
       id: nanoid(),
